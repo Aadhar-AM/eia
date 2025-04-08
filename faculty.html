@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty - Eklavya International Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>E I A</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="vision-mission.html">Vision & Mission</a></li>
+                    <li><a href="director-message.html">Director's Message</a></li>
+                    <li><a href="principal-message.html">Principal's Message</a></li>
+                    <li><a href="vice-principal-message.html">Vice-Principal's Message</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Academics <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="primary-education.html">Primary Education</a></li>
+                    <li><a href="middle-school.html">Middle School</a></li>
+                    <li><a href="high-school.html">High School</a></li>
+                    <li><a href="stem-programs.html">STEM Programs</a></li>
+                </ul>
+            </li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="signin.html" class="auth-link">Sign In</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Faculty Header -->
+    <section class="faculty-header">
+        <div class="container">
+            <h1>Our Faculty</h1>
+            <p>Meet the dedicated educators who inspire and guide our students</p>
+        </div>
+    </section>
+
+    <!-- Faculty Introduction -->
+    <section class="faculty-intro">
+        <div class="container">
+            <h2>Excellence in Education</h2>
+            <p>At Eklavya International Academy, our faculty members are the cornerstone of our educational excellence. With diverse backgrounds, extensive experience, and a passion for teaching, our educators are committed to nurturing the potential of every student.</p>
+            <p>Our teachers bring an average of 15+ years of experience in education, with many holding advanced degrees and specialized certifications in their respective fields.</p>
+        </div>
+    </section>
+
+    <!-- Faculty Categories -->
+    <section class="faculty-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="all">All Faculty</button>
+                <button class="tab-btn" data-category="leadership">Leadership</button>
+                <button class="tab-btn" data-category="primary">Primary School</button>
+                <button class="tab-btn" data-category="middle">Middle School</button>
+                <button class="tab-btn" data-category="high">High School</button>
+                <button class="tab-btn" data-category="specialist">Specialists</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Members -->
+    <section class="faculty-members">
+        <div class="container">
+            <div class="faculty-grid">
+                <!-- Leadership -->
+                <div class="faculty-card" data-category="leadership">
+                    <div class="faculty-image">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Dr. Rajesh Kumar">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Rajesh Kumar</h3>
+                        <p class="faculty-title">Principal</p>
+                        <p class="faculty-qualification">Ph.D. in Educational Leadership</p>
+                        <p class="faculty-bio">With over 25 years of experience in education, Dr. Kumar has led several prestigious institutions. His vision for Eklavya International Academy is to create an environment where every student can thrive.</p>
+                        <div class="faculty-contact">
+                            <a href="mailto:principal@eklavya.edu"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card" data-category="leadership">
+                    <div class="faculty-image">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Dr. Priya Sharma">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Priya Sharma</h3>
+                        <p class="faculty-title">Vice Principal</p>
+                        <p class="faculty-qualification">M.Ed., Ph.D. in Curriculum Development</p>
+                        <p class="faculty-bio">Dr. Sharma specializes in curriculum development and has been instrumental in implementing innovative teaching methodologies at our school.</p>
+                        <div class="faculty-contact">
+                            <a href="mailto:viceprincipal@eklavya.edu"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Primary School -->
+                <div class="faculty-card" data-category="primary">
+                    <div class="faculty-image">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Ms. Anjali Patel">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Ms. Anjali Patel</h3>
+                        <p class="faculty-title">Grade 1 Teacher</p>
+                        <p class="faculty-qualification">B.Ed., M.Ed. in Early Childhood Education</p>
+                        <p class="faculty-bio">Ms. Patel has a special talent for making learning fun and engaging for young students. Her classroom is a vibrant space where creativity flourishes.</p>
+                        <div class="faculty-contact">
+                            <a href="mailto:anjali.patel@eklavya.edu"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card" data-category="primary">
+                    <div class="faculty-image">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Mr. Arun Singh">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Mr. Arun Singh</h3>
+                        <p class="faculty-title">Grade 3 Teacher</p>
+                        <p class="faculty-qualification">B.Ed., M.A. in Elementary Education</p>
+                        <p class="faculty-bio">Mr. Singh brings enthusiasm and energy to his classroom. He believes in hands-on learning experiences that connect classroom concepts to real-world applications.</p>
+                        <div class="faculty-contact">
+                            <a href="mailto:arun.singh@eklavya.edu"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Middle School -->
+                <div class="faculty-card" data-category="middle">
+                    <div class="faculty-image">
+                        <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Ms. Deepa Verma">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Ms. Deepa Verma</h3>
+                        <p class="faculty-title">Grade 6 Science Teacher</p>
+                        <p class="faculty-qualification">M.Sc. in Physics, B.Ed.</p>
+                        <p class="faculty-bio">Ms. Verma's passion for science is contagious. She has developed innovative lab experiments that make complex scientific concepts accessible to middle school students.</p>
+                        <div class="faculty-contact">
+                            <a href="mailto:deepa.verma@eklavya.edu"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card" data-category="middle">
+                    <div class="faculty-image">
+                        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Mr. Vikram Malhotra">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Mr. Vikram Malhotra</h3>
+                        <p class="faculty-title">Grade 8 Mathematics Teacher</p>
+                        <p class="faculty-qualification">M.Sc. in Mathematics, B.Ed.</p>
+                        <p class="faculty-bio">Mr. Malhotra has a unique ability to make mathematics engaging and understandable. He uses technology and real-world applications to help students develop a strong foundation in mathematical concepts.</p>
+                        <div class="faculty-contact">
+                            <a href="mailto:vikram.malhotra@eklavya.edu"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- High School -->
+                <div class="faculty-card" data-category="high">
+                    <div class="faculty-image">
+                        <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Dr. Meera Kapoor">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Meera Kapoor</h3>
+                        <p class="faculty-title">Grade 10 Biology Teacher</p>
+                        <p class="faculty-qualification">Ph.D. in Biology, B.Ed.</p>
+                        <p class="faculty-bio">Dr. Kapoor's extensive research background brings depth to her biology classes. She encourages students to think critically and develop a scientific mindset.</p>
+                        <div class="faculty-contact">
+                            <a href="mailto:meera.kapoor@eklavya.edu"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card" data-category="high">
+                    <div class="faculty-image">
+                        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Mr. Rahul Gupta">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Mr. Rahul Gupta</h3>
+                        <p class="faculty-title">Grade 12 Physics Teacher</p>
+                        <p class="faculty-qualification">M.Tech. in Engineering Physics, B.Ed.</p>
+                        <p class="faculty-bio">Mr. Gupta's engineering background allows him to connect theoretical physics with practical applications. He has guided numerous students to success in competitive exams.</p>
+                        <div class="faculty-contact">
+                            <a href="mailto:rahul.gupta@eklavya.edu"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Specialists -->
+                <div class="faculty-card" data-category="specialist">
+                    <div class="faculty-image">
+                        <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Ms. Neha Patel">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Ms. Neha Patel</h3>
+                        <p class="faculty-title">Art Teacher</p>
+                        <p class="faculty-qualification">M.F.A. in Fine Arts, B.Ed.</p>
+                        <p class="faculty-bio">Ms. Patel's art classes are a celebration of creativity. She introduces students to various art forms and techniques, encouraging them to express themselves through visual media.</p>
+                        <div class="faculty-contact">
+                            <a href="mailto:neha.patel@eklavya.edu"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card" data-category="specialist">
+                    <div class="faculty-image">
+                        <img src="https://randomuser.me/api/portraits/men/89.jpg" alt="Mr. Aditya Sharma">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Mr. Aditya Sharma</h3>
+                        <p class="faculty-title">Physical Education Instructor</p>
+                        <p class="faculty-qualification">M.P.Ed., Certified Sports Coach</p>
+                        <p class="faculty-bio">Mr. Sharma believes in the importance of physical fitness for academic success. He has developed a comprehensive sports program that caters to students of all skill levels.</p>
+                        <div class="faculty-contact">
+                            <a href="mailto:aditya.sharma@eklavya.edu"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Our Faculty -->
+    <section class="join-faculty">
+        <div class="container">
+            <h2>Join Our Faculty</h2>
+            <p>We are always looking for passionate educators to join our team. If you share our commitment to excellence in education, we would love to hear from you.</p>
+            <a href="index.html#contact" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Eklavya International Academy</h3>
+                    <p>Empowering students to achieve excellence in education and life.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#academics">Academics</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Eklavya International Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

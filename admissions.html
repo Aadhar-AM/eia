@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - Eklavya International Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>E I A</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="vision-mission.html">Vision & Mission</a></li>
+                    <li><a href="director-message.html">Director's Message</a></li>
+                    <li><a href="principal-message.html">Principal's Message</a></li>
+                    <li><a href="vice-principal-message.html">Vice-Principal's Message</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Academics <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="primary-education.html">Primary Education</a></li>
+                    <li><a href="middle-school.html">Middle School</a></li>
+                    <li><a href="high-school.html">High School</a></li>
+                    <li><a href="stem-programs.html">STEM Programs</a></li>
+                </ul>
+            </li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="signin.html" class="auth-link">Sign In</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Admissions Header -->
+    <section class="admissions-header">
+        <div class="container">
+            <h1>Admissions</h1>
+            <p>Begin your journey with Eklavya International Academy</p>
+        </div>
+    </section>
+
+    <!-- Admissions Process -->
+    <section class="admissions-process">
+        <div class="container">
+            <h2>Admission Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>1. Application</h3>
+                    <p>Fill out the online application form with required details</p>
+                </div>
+                <div class="step">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>2. Assessment</h3>
+                    <p>Schedule and complete the entrance assessment</p>
+                </div>
+                <div class="step">
+                    <i class="fas fa-handshake"></i>
+                    <h3>3. Interview</h3>
+                    <p>Meet with our admissions team for a personal interview</p>
+                </div>
+                <div class="step">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>4. Enrollment</h3>
+                    <p>Complete the enrollment process and join our community</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-form">
+        <div class="container">
+            <h2>Application Form</h2>
+            <form id="admissionForm" class="admission-form">
+                <!-- Student Information -->
+                <div class="form-section">
+                    <h3>Student Information</h3>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="firstName">First Name*</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name*</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Date of Birth*</label>
+                            <input type="date" id="dob" name="dob" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender*</label>
+                            <select id="gender" name="gender" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Academic Information -->
+                <div class="form-section">
+                    <h3>Academic Information</h3>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="grade">Applying for Grade*</label>
+                            <select id="grade" name="grade" required>
+                                <option value="">Select Grade</option>
+                                <option value="1">Grade 1</option>
+                                <option value="2">Grade 2</option>
+                                <option value="3">Grade 3</option>
+                                <option value="4">Grade 4</option>
+                                <option value="5">Grade 5</option>
+                                <option value="6">Grade 6</option>
+                                <option value="7">Grade 7</option>
+                                <option value="8">Grade 8</option>
+                                <option value="9">Grade 9</option>
+                                <option value="10">Grade 10</option>
+                                <option value="11">Grade 11</option>
+                                <option value="12">Grade 12</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="currentSchool">Current School</label>
+                            <input type="text" id="currentSchool" name="currentSchool">
+                        </div>
+                        <div class="form-group">
+                            <label for="academicYear">Academic Year*</label>
+                            <select id="academicYear" name="academicYear" required>
+                                <option value="">Select Academic Year</option>
+                                <option value="2024-2025">2024-2025</option>
+                                <option value="2025-2026">2025-2026</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Parent/Guardian Information -->
+                <div class="form-section">
+                    <h3>Parent/Guardian Information</h3>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="parentName">Parent/Guardian Name*</label>
+                            <input type="text" id="parentName" name="parentName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="relationship">Relationship*</label>
+                            <select id="relationship" name="relationship" required>
+                                <option value="">Select Relationship</option>
+                                <option value="mother">Mother</option>
+                                <option value="father">Father</option>
+                                <option value="guardian">Guardian</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number*</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Information -->
+                <div class="form-section">
+                    <h3>Additional Information</h3>
+                    <div class="form-group">
+                        <label for="address">Residential Address*</label>
+                        <textarea id="address" name="address" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="medicalInfo">Medical Information</label>
+                        <textarea id="medicalInfo" name="medicalInfo" placeholder="Please mention any allergies, medical conditions, or special requirements"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="interests">Student's Interests & Hobbies</label>
+                        <textarea id="interests" name="interests" placeholder="Please mention any extracurricular activities or interests"></textarea>
+                    </div>
+                </div>
+
+                <!-- Documents Upload -->
+                <div class="form-section">
+                    <h3>Required Documents</h3>
+                    <div class="form-group">
+                        <label for="birthCertificate">Birth Certificate*</label>
+                        <input type="file" id="birthCertificate" name="birthCertificate" accept=".pdf,.jpg,.jpeg,.png" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="previousRecords">Previous School Records (if applicable)</label>
+                        <input type="file" id="previousRecords" name="previousRecords" accept=".pdf,.jpg,.jpeg,.png">
+                    </div>
+                    <div class="form-group">
+                        <label for="immunization">Immunization Records*</label>
+                        <input type="file" id="immunization" name="immunization" accept=".pdf,.jpg,.jpeg,.png" required>
+                    </div>
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit" class="submit-button">Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Eklavya International Academy</h3>
+                    <p>Empowering students to achieve excellence in education and life.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#academics">Academics</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Eklavya International Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

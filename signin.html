@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Eklavya International Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>E I A</h1>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="vision-mission.html">Vision & Mission</a></li>
+                    <li><a href="director-message.html">Director's Message</a></li>
+                    <li><a href="principal-message.html">Principal's Message</a></li>
+                    <li><a href="vice-principal-message.html">Vice-Principal's Message</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Academics <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="primary-education.html">Primary Education</a></li>
+                    <li><a href="middle-school.html">Middle School</a></li>
+                    <li><a href="high-school.html">High School</a></li>
+                    <li><a href="stem-programs.html">STEM Programs</a></li>
+                </ul>
+            </li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="signin.html" class="auth-link">Sign In</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sign In Section -->
+    <section class="auth-section">
+        <div class="container">
+            <div class="auth-container">
+                <div class="auth-header">
+                    <h2>Sign In</h2>
+                    <p>Welcome back! Please sign in to your account</p>
+                </div>
+                <form class="auth-form" id="signinForm">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" id="password" name="password" required>
+                            <i class="fas fa-eye toggle-password"></i>
+                        </div>
+                    </div>
+                    <div class="form-options">
+                        <div class="remember-me">
+                            <input type="checkbox" id="remember" name="remember">
+                            <label for="remember">Remember me</label>
+                        </div>
+                        <a href="#" class="forgot-password">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="auth-button">Sign In</button>
+                </form>
+                <div class="auth-footer">
+                    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                </div>
+                <div class="social-login">
+                    <p>Or sign in with</p>
+                    <div class="social-buttons">
+                        <button class="social-button google">
+                            <i class="fab fa-google"></i>
+                            <span>Google</span>
+                        </button>
+                        <button class="social-button facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Eklavya International Academy</h3>
+                    <p>Empowering students to achieve excellence in education and life.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#academics">Academics</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Eklavya International Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

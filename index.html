@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Name - Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>E I A</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="vision-mission.html">Vision & Mission</a></li>
+                    <li><a href="director-message.html">Director's Message</a></li>
+                    <li><a href="principal-message.html">Principal's Message</a></li>
+                    <li><a href="vice-principal-message.html">Vice-Principal's Message</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Academics <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="primary-education.html">Primary Education</a></li>
+                    <li><a href="middle-school.html">Middle School</a></li>
+                    <li><a href="high-school.html">High School</a></li>
+                    <li><a href="stem-programs.html">STEM Programs</a></li>
+                </ul>
+            </li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="signin.html" class="auth-link">Sign In</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="images/hero1.jpg" alt="School Campus">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1>Welcome to Eklavya International Academy</h1>
+                    <p>Nurturing minds, Building futures</p>
+                    <a href="#about" class="cta-button">Learn More</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/hero2.jpg" alt="Students Learning">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1>Quality Education</h1>
+                    <p>Empowering students for success</p>
+                    <a href="#programs" class="cta-button">Our Programs</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/hero3.jpg" alt="School Activities">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1>Join Our Community</h1>
+                    <p>Where learning meets opportunity</p>
+                    <a href="admissions.html" class="cta-button">Apply Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-slide" aria-label="Previous slide">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-slide" aria-label="Next slide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Our School</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We are committed to providing excellence in education, fostering creativity, and developing future leaders. Our school offers a comprehensive curriculum designed to meet the needs of every student.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <h3>2000</h3>
+                        <p>Students</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h3>100</h3>
+                        <p>Teachers</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-trophy"></i>
+                        <h3>50</h3>
+                        <p>Awards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="academics">
+        <div class="container">
+            <h2>Academic Programs</h2>
+            <div class="programs-grid">
+                <a href="primary-education.html" class="program-card">
+                    <i class="fas fa-child"></i>
+                    <h3>Primary Education</h3>
+                    <p>Grades 1-5</p>
+                </a>
+                <a href="middle-school.html" class="program-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Middle School</h3>
+                    <p>Grades 6-8</p>
+                </a>
+                <a href="high-school.html" class="program-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>High School</h3>
+                    <p>Grades 9-12</p>
+                </a>
+                <a href="stem-programs.html" class="program-card">
+                    <i class="fas fa-flask"></i>
+                    <h3>STEM Programs</h3>
+                    <p>Advanced Studies</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Toppers Section -->
+    <section id="toppers" class="toppers">
+        <div class="container">
+            <h2>Our Toppers</h2>
+            <p class="section-description">Celebrating the academic excellence of our outstanding students</p>
+            <div class="toppers-container">
+                <div class="toppers-track">
+                    <div class="topper-card">
+                        <div class="topper-image">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Rahul Sharma">
+                        </div>
+                        <div class="topper-info">
+                            <h3>Rahul Sharma</h3>
+                            <p class="topper-class">Class XII - Science</p>
+                            <p class="topper-achievement">98.5% in Board Exams</p>
+                            <p class="topper-detail">AIR 1 in JEE Main 2024</p>
+                        </div>
+                    </div>
+                    <div class="topper-card">
+                        <div class="topper-image">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Priya Patel">
+                        </div>
+                        <div class="topper-info">
+                            <h3>Priya Patel</h3>
+                            <p class="topper-class">Class XII - Commerce</p>
+                            <p class="topper-achievement">97.8% in Board Exams</p>
+                            <p class="topper-detail">AIR 5 in CA Foundation</p>
+                        </div>
+                    </div>
+                    <div class="topper-card">
+                        <div class="topper-image">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Aarav Kumar">
+                        </div>
+                        <div class="topper-info">
+                            <h3>Aarav Kumar</h3>
+                            <p class="topper-class">Class X</p>
+                            <p class="topper-achievement">99.2% in Board Exams</p>
+                            <p class="topper-detail">Perfect Score in Mathematics</p>
+                        </div>
+                    </div>
+                    <div class="topper-card">
+                        <div class="topper-image">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Neha Singh">
+                        </div>
+                        <div class="topper-info">
+                            <h3>Neha Singh</h3>
+                            <p class="topper-class">Class XII - Science</p>
+                            <p class="topper-achievement">97.5% in Board Exams</p>
+                            <p class="topper-detail">AIR 3 in NEET 2024</p>
+                        </div>
+                    </div>
+                    <div class="topper-card">
+                        <div class="topper-image">
+                            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Vikram Malhotra">
+                        </div>
+                        <div class="topper-info">
+                            <h3>Vikram Malhotra</h3>
+                            <p class="topper-class">Class XII - Commerce</p>
+                            <p class="topper-achievement">96.8% in Board Exams</p>
+                            <p class="topper-detail">AIR 8 in CA Foundation</p>
+                        </div>
+                    </div>
+                    <div class="topper-card">
+                        <div class="topper-image">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Ananya Reddy">
+                        </div>
+                        <div class="topper-info">
+                            <h3>Ananya Reddy</h3>
+                            <p class="topper-class">Class X</p>
+                            <p class="topper-achievement">98.9% in Board Exams</p>
+                            <p class="topper-detail">Perfect Score in Science</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="toppers-controls">
+                <button class="scroll-left" aria-label="Scroll left">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="scroll-right" aria-label="Scroll right">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><a href="https://maps.app.goo.gl/QBez7NEeSV5yD8Jg7" target="_blank">Grand Sikar Road, Udaipuriya, Haramada, Jaipur, Rajasthan</a></p>
+                        
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 9024124124</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p><a href="mailto:aadharmehta.am@gmail.com">aadharmehta.am@gmail.com</a></p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Eklavya International Academy</h3>
+                    <p>Empowering students to achieve excellence in education and life.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#academics">Academics</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Eklavya International Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
